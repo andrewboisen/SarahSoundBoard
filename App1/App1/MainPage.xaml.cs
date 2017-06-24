@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,12 @@ namespace App1
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void ButtonPlay_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("dixie-horn_daniel-simion.mp3");
         }
     }
 }

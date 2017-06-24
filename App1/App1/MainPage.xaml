@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
-	<Label Text="Sarah Boisen" 
+	<Label Text="Sarah Boisen SoundBoard" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
+    <Button Text="Play"  x:Name="ButtonPlay" Clicked="ButtonPlay_Clicked"></Button>
+    
 </ContentPage>

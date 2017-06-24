@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using App1.Droid.Service;
 
 namespace App1.Droid
 {
@@ -20,6 +21,9 @@ namespace App1.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            Xamarin.Forms.DependencyService.Register<AudioService>();
+
             LoadApplication(new App());
         }
     }
