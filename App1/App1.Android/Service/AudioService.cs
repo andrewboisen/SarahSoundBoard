@@ -11,12 +11,12 @@ namespace App1.Droid.Service
         public void PlayAudio(string filename)
         {
             var player = new MediaPlayer();
-            var fd = Xamarin.Forms.Forms.Context.Assets.OpenFd(filename);
+            var fileDescriptor = Xamarin.Forms.Forms.Context.Assets.OpenFd(filename);
             player.Prepared += (s, e) =>
             {
                 player.Start();
             };
-            player.SetDataSource(fd.FileDescriptor);
+            player.SetDataSource(fileDescriptor.FileDescriptor, fileDescriptor.StartOffset, fileDescriptor.Length);
             player.Prepare();
         }
     }

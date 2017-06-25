@@ -15,10 +15,16 @@ namespace App1
             InitializeComponent();
         }
 
-        private void ButtonPlay_Clicked(object sender, EventArgs e)
+        private void ButtonBeepBeep_Clicked(object sender, EventArgs e)
         {
             var audioService = DependencyService.Get<IAudioService>();
-            audioService.PlayAudio("dixie-horn_daniel-simion.mp3");
+            audioService.PlayAudio("beepbeep.mp3");
+        }
+
+        private void ButtonBigBurn_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("bigburn.mp3");
         }
     }
 }

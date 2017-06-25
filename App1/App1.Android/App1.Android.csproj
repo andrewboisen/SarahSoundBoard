@@ -104,7 +104,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -125,9 +124,6 @@
       <Project>{9cb15fd2-3ace-4443-bac0-dc1e9e55cd16}</Project>
       <Name>App1</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="Assets\dixie-horn_daniel-simion.mp3" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\duhdah.mp3" />
