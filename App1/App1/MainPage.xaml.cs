@@ -26,5 +26,29 @@ namespace App1
             var audioService = DependencyService.Get<IAudioService>();
             audioService.PlayAudio("bigburn.mp3");
         }
+
+        private void ButtonDuhDah_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("duhdah.mp3");
+        }
+
+        private void ButtonMeMe_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("meme.mp3");
+        }
+
+        private void ButtonOhlalaa_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("ohlalaa.mp3");
+        }
+
+        private void ButtonQuack_Clicked(object sender, EventArgs e)
+        {
+            var audioService = DependencyService.Get<IAudioService>();
+            audioService.PlayAudio("quack.mp3");
+        }
     }
 }

@@ -25,5 +25,13 @@
                 Grid.Row="1" Grid.Column="0" ></Button>
         <Button Text="Big Burn"  x:Name="ButtonBigBurn" Clicked="ButtonBigBurn_Clicked"
                 Grid.Row="1" Grid.Column="1" ></Button>
+        <Button Text="Duh Dah"  x:Name="ButtonDuhDah" Clicked="ButtonDuhDah_Clicked"
+                Grid.Row="2" Grid.Column="0" ></Button>
+        <Button Text="Me Me"  x:Name="ButtonMeMe" Clicked="ButtonMeMe_Clicked"
+                Grid.Row="2" Grid.Column="1" ></Button>
+        <Button Text="Oh la laa"  x:Name="ButtonOhlalaa" Clicked="ButtonOhlalaa_Clicked"
+                Grid.Row="3" Grid.Column="0" ></Button>
+        <Button Text="Quack"  x:Name="ButtonQuack" Clicked="ButtonQuack_Clicked"
+                Grid.Row="3" Grid.Column="1" ></Button>
     </Grid>
 </ContentPage>
