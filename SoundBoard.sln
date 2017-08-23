@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard.Android", "App1\App1.Android\SoundBoard.Android.csproj", "{D074895E-FD6A-4571-8467-1E66632B732D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard.Android", "SarahSoundBoard\SarahSoundBoard.Android\SoundBoard.Android.csproj", "{D074895E-FD6A-4571-8467-1E66632B732D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard", "App1\App1\SoundBoard.csproj", "{4076E680-CA1A-4653-93E9-744B88DE05D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard", "SarahSoundBoard\SarahSoundBoard\SoundBoard.csproj", "{4076E680-CA1A-4653-93E9-744B88DE05D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard.iOS", "App1\App1.iOS\SoundBoard.iOS.csproj", "{1E034B90-BEF6-412E-B27F-6E89DD64A70E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundBoard.iOS", "SarahSoundBoard\SarahSoundBoard.iOS\SoundBoard.iOS.csproj", "{1E034B90-BEF6-412E-B27F-6E89DD64A70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
