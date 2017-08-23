@@ -8,9 +8,9 @@
     <ProjectGuid>{1E034B90-BEF6-412E-B27F-6E89DD64A70E}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App1.iOS</RootNamespace>
+    <RootNamespace>SoundBoard.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>App1.iOS</AssemblyName>
+    <AssemblyName>SoundBoard.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -135,9 +135,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{9cb15fd2-3ace-4443-bac0-dc1e9e55cd16}</Project>
-      <Name>App1</Name>
+    <ProjectReference Include="..\App1\SoundBoard.csproj">
+      <Project>{4076E680-CA1A-4653-93E9-744B88DE05D2}</Project>
+      <Name>SoundBoard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

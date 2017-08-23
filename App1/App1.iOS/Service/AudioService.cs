@@ -5,12 +5,12 @@ using System.Text;
 
 using Foundation;
 using UIKit;
-using App1.Service;
-using App1.iOS.Service;
+using SoundBoard.Service;
+using SoundBoard.iOS.Service;
 
 [assembly: Xamarin.Forms.Dependency(typeof(AudioService))]
 
-namespace App1.iOS.Service
+namespace SoundBoard.iOS.Service
 {
     class AudioService : IAudioService
     {

@@ -8,8 +8,8 @@
     <ProjectGuid>{4076E680-CA1A-4653-93E9-744B88DE05D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>App1</RootNamespace>
-    <AssemblyName>App1</AssemblyName>
+    <RootNamespace>SoundBoard</RootNamespace>
+    <AssemblyName>SoundBoard</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>

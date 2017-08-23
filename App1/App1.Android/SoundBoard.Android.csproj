@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>App1.Droid</RootNamespace>
-    <AssemblyName>App1.Android</AssemblyName>
+    <RootNamespace>SoundBoard.Droid</RootNamespace>
+    <AssemblyName>SoundBoard.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -120,9 +120,9 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{9cb15fd2-3ace-4443-bac0-dc1e9e55cd16}</Project>
-      <Name>App1</Name>
+    <ProjectReference Include="..\App1\SoundBoard.csproj">
+      <Project>{4076E680-CA1A-4653-93E9-744B88DE05D2}</Project>
+      <Name>SoundBoard</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

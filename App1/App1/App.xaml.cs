@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace App1
+namespace SoundBoard
 {
     public partial class App : Application
     {
@@ -13,7 +13,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new App1.MainPage();
+            MainPage = new SoundBoard.MainPage();
         }
 
         protected override void OnStart()

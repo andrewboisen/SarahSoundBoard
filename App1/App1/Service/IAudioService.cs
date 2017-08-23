@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App1.Service
+namespace SoundBoard.Service
 {
     public interface IAudioService
     {

@@ -1,4 +1,4 @@
-﻿using App1.Service;
+﻿using SoundBoard.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace App1
+namespace SoundBoard
 {
     public partial class MainPage : ContentPage
     {

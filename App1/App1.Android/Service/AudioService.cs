@@ -1,10 +1,10 @@
 ﻿using Android.Media;
-using App1.Droid.Service;
-using App1.Service;
+using SoundBoard.Droid.Service;
+using SoundBoard.Service;
 
 [assembly: Xamarin.Forms.Dependency(typeof(AudioService))]
 
-namespace App1.Droid.Service
+namespace SoundBoard.Droid.Service
 {
     internal class AudioService : IAudioService
     {
